@@ -10,7 +10,7 @@ import axios from 'axios';
 axios.defaults.withCredentials = true;
 axios.defaults.baseURL = 'https://server-express-jwt.herokuapp.com/';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
-axios.defaults.timeout = 2500;
+axios.defaults.timeout = 4500;
 
 axios.interceptors.response.use(
     function(response) {
